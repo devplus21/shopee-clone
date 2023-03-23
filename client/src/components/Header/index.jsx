@@ -54,8 +54,8 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header_container container">
-        <Link to="/" className="Header_logo">
-           <p>SHOPEE</p>
+        <Link to="/" className="Header_logo" >
+           SHOPEE
         </Link>
          <div className="form_group search-input-wrap">
               <input
@@ -99,7 +99,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="d-flex list-menu container">
+      <div className="d-flex list-menu container" style={{marginLeft:"217px"}}>
         {mainNav.map((item, index) => (
           <Link to={item.path} key={index} className="menu-item">
             {item.display}

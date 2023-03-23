@@ -3,6 +3,16 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
+.btn{
+  color: white;
+  background: #f53d2d;
+  margin-left: 165px
+}
+.btn:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #f63;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;

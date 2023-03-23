@@ -24,12 +24,9 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 15px;
-  border-bottom: 5px solid #fff;
+  padding-bottom: 6px;
 }
-.header:hover .header_container {
-  border-bottom: 5px solid #fbcad4;
-}
+
 .header_action {
   display: flex;
 }
@@ -40,9 +37,12 @@ body {
   justify-content: center;
 }
 
-.header_action .action_search .form_group {
+.header .form_group {
   position: relative;
   margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
  .form_group input {
   max-width: 100%;
@@ -197,7 +197,7 @@ a.nav {
   .menu-item {
     color: #fff;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     border-bottom: 1px solid inherit;
 
     &:hover {

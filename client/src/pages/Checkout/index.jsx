@@ -151,7 +151,7 @@ const Checkout = () => {
 								</div>
 								<div className="checkout-info-footer d-flex justify-content-between mt-5">
 									<Link to="/cart">Giỏ hàng</Link>
-									<Button loading={loading} onClick={handleCompleted} type="primary" size="large">
+									<Button loading={loading} onClick={handleCompleted} type="primary" size="large" className='check-cart' >
 										Hoàn tất đơn hàng
 									</Button>
 								</div>
