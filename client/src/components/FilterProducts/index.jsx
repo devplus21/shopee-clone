@@ -54,11 +54,13 @@ const FilterProducts = ({ setPrice, setCategory, setCurrentPage }) => {
 
   return (
     <div className="filterProducts">
+     
       <div className="container">
+         Lọc sản phẩm theo: 
         <div className="d-flex justify-content-between py-3">
           <div className="filterProducts-filter">
             <Select defaultValue={cateId||"default"} style={{ width: 230 }} onChange={handleChangeCategory}>
-              <Option value="default">Loại sản phẩm</Option>
+              <Option value="default">Danh mục sản phẩm</Option>
               {categories &&
                 categories.map((category) => (
                   <Option key={category._id} value={category._id}>
@@ -74,7 +76,7 @@ const FilterProducts = ({ setPrice, setCategory, setCurrentPage }) => {
               style={{ width: 230 }}
               onChange={handleChangePrice}
             >
-              <Option value={0}>Giá</Option>
+              <Option value={0}>Khoảng giá</Option>
               <Option value={1}>Dưới 1,000,000₫</Option>
               <Option value={2}>1,000,001₫ - 2,000,000₫</Option>
               <Option value={3}>2,000,001₫ - 3,000,000₫</Option>

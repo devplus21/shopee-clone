@@ -6,14 +6,11 @@ import { Link } from 'react-router-dom';
 function ListCategory() {
   return (
     <div className="container my-5">
+      Danh Mục
       <div className="row">
-        <div className="col-md-3">
-          <div className="text-tit">
-            <h2>Khám phá thế giới trang sức tuyệt mỹ</h2>
-          </div>
-        </div>
-        <div className="col-md-9 ">
-          <div className="row">
+       
+        <div className="col-md-12 ">
+          <div className="check-layout row" >
             {dataListProducts.map((item) => {
               return (
                 <Link to={item.path} className="col-md-2" key={item.id}>

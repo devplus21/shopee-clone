@@ -42,4 +42,40 @@ export const dataListProducts = [
     path: '/products?cate=6283cfe1e4b3dab05b01f915',
     name: 'Dây chuyền',
   },
+    {
+    id: 6,
+    img: img06,
+    path: '/products?cate=6283cfe1e4b3dab05b01f915',
+    name: 'Dây chuyền',
+  },
+      {
+    id: 6,
+    img: img06,
+    path: '/products?cate=6283cfe1e4b3dab05b01f915',
+    name: 'Dây chuyền',
+  },
+        {
+    id: 6,
+    img: img06,
+    path: '/products?cate=6283cfe1e4b3dab05b01f915',
+    name: 'Dây chuyền',
+  },
+          {
+    id: 6,
+    img: img06,
+    path: '/products?cate=6283cfe1e4b3dab05b01f915',
+    name: 'Dây chuyền',
+  },
+            {
+    id: 6,
+    img: img06,
+    path: '/products?cate=6283cfe1e4b3dab05b01f915',
+    name: 'Dây chuyền',
+  },
+              {
+    id: 6,
+    img: img06,
+    path: '/products?cate=6283cfe1e4b3dab05b01f915',
+    name: 'Dây chuyền',
+  },
 ];
